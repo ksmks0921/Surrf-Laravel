@@ -1,8 +1,8 @@
-<h1 align="center">Surf 🏄‍♀️</h1>
+<h1 align="center">Surrf 🏄‍♀️</h1>
 
 ## Introduction
 
-Surf, the opinionated Software as a Service Starter Kit that can help you build your next great idea 💰. Surf is fork off [Wave](https://devdojo.com/wave), and is built with [Laravel](https://laravel.com), [Voyager](https://voyager.devdojo.com), [TailwindCSS](https://tailwindcss.com), and a few other awesome technologies. Here are some of the awesome features ✨:
+Surrf, the opinionated Software as a Service Starter Kit that can help you build your next great idea 💰. Surf is fork off [Wave](https://devdojo.com/wave), and is built with [Laravel](https://laravel.com), [Voyager](https://voyager.devdojo.com), [TailwindCSS](https://tailwindcss.com), and a few other awesome technologies. Here are some of the awesome features ✨:
 
  - [Authentication](https://wave.devdojo.com/docs/features/authentication)
  - [User Profiles](https://wave.devdojo.com/docs/features/user-profiles)
@@ -19,17 +19,17 @@ Surf, the opinionated Software as a Service Starter Kit that can help you build 
 
 ## Deployment Issues
 
-Surf has not been tested with DigitalOceans APP platform. If you are using Surf on DigitalOcean, don't be surprised if you experience issues. Docker has also not been tested and is not recommended.
+Surrf has not been tested with DigitalOceans APP platform. If you are using Surrf on DigitalOcean, don't be surprised if you experience issues. Docker has also not been tested and is not recommended.
 
 ## Installation
 
-To install Surf, you'll want to clone or download this repo:
+To install Surrf, you'll want to clone or download this repo:
 
 ```
-git clone https://github.com/thinkverse/surf.git project_name
+git clone https://github.com/thinkverse/surrf.git project_name
 ```
 
-Next, we can install Surf with these **5 simple steps**:
+Next, we can install Surrf with these **5 simple steps**:
 
 ### 1. Create a New Database
 
@@ -42,12 +42,12 @@ We need to specify our Environment variables for our application. You will see a
 Then, open up the `.env` file and update your *DB_DATABASE*, *DB_USERNAME*, and *DB_PASSWORD* in the appropriate fields. You will also want to update the *APP_URL* to the URL of your application.
 
 ```bash
-APP_URL=http://surf.test
+APP_URL=http://surrf.test
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=surf
+DB_DATABASE=surrf
 DB_USERNAME=root
 DB_PASSWORD=
 ```
@@ -95,11 +95,11 @@ Finally, we will need to seed our database with the following command:
 php artisan db:seed
 ```
 
-That's it! You will now be able to visit your URL and see your Surf application up and running. 🎉
+That's it! You will now be able to visit your URL and see your Surrf application up and running. 🎉
 
 ## Watch, Learn, and Build
 
-DevDojo got a full video series on how you can setup, build, and configure Wave, which is the underlying starter kit Surf is made from. You can watch first few videos for free, and additional videos will require a [DevDojo Pro](https://devdojo.com/pro) subscription. By subscribing to a [DevDojo Pro](https://devdojo.com/pro) subscription you will also be supporting the ongoing development of this project. It's a win win! 🙌
+DevDojo got a full video series on how you can setup, build, and configure Wave, which is the underlying starter kit Surrf is made from. You can watch first few videos for free, and additional videos will require a [DevDojo Pro](https://devdojo.com/pro) subscription. By subscribing to a [DevDojo Pro](https://devdojo.com/pro) subscription you will also be supporting the ongoing development of this project. It's a win win! 🙌
 
 [Click here to watch the Wave Video Series](https://devdojo.com/course/wave).
 
